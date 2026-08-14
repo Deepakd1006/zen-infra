@@ -16,6 +16,7 @@ variable "jwt_secret" {
   sensitive   = true
 }
 
+
 variable "github_org" {
   description = "Your GitHub username or organization that owns zen-pharma-frontend and zen-pharma-backend (e.g. john-smith)"
   type        = string
